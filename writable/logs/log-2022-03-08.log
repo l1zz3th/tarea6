@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-08 02:58:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\clase05\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\clase05\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\clase05\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\clase05\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2022-03-08 02:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\clase05\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\clase05\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\clase05\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\clase05\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
