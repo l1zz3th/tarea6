@@ -9,3 +9,26 @@ class UserModel extends Model {
     protected $primaryKey = 'id';    
     protected $allowedFields = ['nombre', 'direccion','dui', 'telefono']; 
 }
+
+function add()
+{
+    $data = array(
+        'nombre'   => $this->input->post('nombre'),
+        'direccion'   => $this->input->post('direccion'),
+        'dui'   => $this->input->post('dui'),
+        'telefono'   => $this->input->post('telefono<'),
+    );
+    return $this->db->insert('cliente', $data);
+}
+
+function delete ($id)
+{
+    $this->db->delete('cliente', array('id' => $id));
+}
+
+function update($id, $nombre)
+{
+    $this->db->where('id', $id);
+    $this->db->set('nombre', $nombre);
+    return $this->db->update('editoriales');
+}
