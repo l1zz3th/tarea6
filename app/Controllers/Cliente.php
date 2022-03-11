@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Widget extends BaseController
+class Cliente extends BaseController
 {
     public function index()
     {
