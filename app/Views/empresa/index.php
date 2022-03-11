@@ -1,3 +1,5 @@
+<?= $pager->links() ?>
+
 <?= $this->extend('templates/admin_template') ?>
 
 <?= $this->section('content') ?>
@@ -31,6 +33,8 @@
       <th scope="col">Acciones</th>
     </tr>
   </thead>
+
+  
  
 </table>
  
