@@ -1,16 +1,22 @@
 <form>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <label for="nombre" class="form-label">Nombre Completo:</label>
+    <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+    <div id="nombre" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <label for="direccion" class="form-label">Dirección:</label>
+    <input type="text" class="form-control" id="direccion">
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  <div class="mb-3">
+    <label for="dui" class="form-label">Dui:</label>
+    <input type="text" class="form-control" id="dui">
   </div>
+  <div class="mb-3">
+    <label for="telefono" class="form-label">Teléfono:</label>
+    <input type="text" class="form-control" id="telefono">
+  </div>
+
+
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
