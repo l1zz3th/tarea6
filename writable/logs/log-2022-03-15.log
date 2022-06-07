@@ -1,0 +1,30 @@
+CRITICAL - 2022-03-15 00:46:26 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\tarea6\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\tarea6\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\tarea6\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\tarea6\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2022-03-15 00:48:05 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\laragon\www\tarea6\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 C:\laragon\www\tarea6\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\tarea6\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\tarea6\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2022-03-15 00:49:24 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\laragon\www\tarea6\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 C:\laragon\www\tarea6\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\tarea6\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\tarea6\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2022-03-15 00:49:25 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\laragon\www\tarea6\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 C:\laragon\www\tarea6\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\tarea6\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\tarea6\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2022-03-15 00:54:20 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\laragon\www\tarea6\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 C:\laragon\www\tarea6\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\tarea6\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\tarea6\public\index.php(28): require('C:\\laragon\\www\\...')
+#4 {main}

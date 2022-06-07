@@ -16,7 +16,7 @@ function add()
         'nombre'   => $this->input->post('nombre'),
         'direccion'   => $this->input->post('direccion'),
         'dui'   => $this->input->post('dui'),
-        'telefono'   => $this->input->post('telefono<'),
+        'telefono'   => $this->input->post('telefono'),
     );
     return $this->db->insert('cliente', $data);
 }
